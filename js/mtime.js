@@ -59,7 +59,6 @@
 })();
 /*********************首页顶部轮播*************************/
 //轮播功能
-window.onload=function(){
   (function(){
   var slider=document.querySelector(".slider");
   var sliderImg=document.querySelectorAll(".slider-box>ul>li");
@@ -123,9 +122,6 @@ function lunbo(slider,sliderImg,sliderBtn,nextBtn,prevBtn,time){
     timer = setInterval(changeCount,time);
   });
 }
-}
-
-
 /***********************热评区轮播*******************************/
  (function(){
    var slider=document.querySelector(".hotcommentbox-lg");
