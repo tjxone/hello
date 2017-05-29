@@ -1,0 +1,1980 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="电影,movie,影院,明星,演员,档期,周边"/>
+    <title>Mtime时光网：让电影遇见生活</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link type="image/x-icon" href="img/favicon.ico" rel="icon">
+    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="img/favicon.ico" rel="bookmark">
+    <style>
+    </style>
+</head>
+<body>
+    <!--一、导航栏-->
+    <div id="nav">
+        <!--1、左侧导航列表-->
+        <ul class="lf">
+            <li class="sub"><a class="active" href="index.html">首页</a></li>
+            <li><a href="https://theater.mtime.com">购票</a></li>
+            <li><a href="https://mall.mtime.com">正版商城</a></li>
+            <li><a href="https://news.mtime.com">新闻</a></li>
+            <li class="new"><a href="https://live.mtime.com">直播</a></li>
+            <li><a href="https://movie.mtime.com">发现</a></li>
+            <li><a href="https://www.mtime.com/community">社区</a></li>
+        </ul>
+        <!--2、中间logo-->
+        <div class="logo"><a href="index.html">Mtime时光网</a></div>
+        <!--3、登录注册栏-->
+	    <form action="" method="get">
+        <div class="rf">
+            <!--二维码区域（有弹出框）-->
+            <div class="erweima">
+                <s></s>
+                <i></i>
+                <a href="#">App下载</a>
+                <b></b>
+                <!--弹出框-->
+                <div>
+                    <a href="http://theater.mtime.com" >
+                        <img src="img/erweima.jpg" alt="扫描二维码下载手机app"/>
+                    </a>
+                </div>
+            </div>
+            <!--登录注册按钮-->
+
+		          <div class="login dropdown">
+			        <i></i>
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录</a>
+			        <!--登录弹出框-->
+			        <div class="dropdown-menu sub-login">
+				        <h2>为爱电影的人</h2>
+				        <p class="describe">For people who love movies</p>
+				        <p class="user clear">
+					        <span></span>
+					        <i>邮箱\手机格式错误</i>
+					        <input type="text" name="username" placeholder="输入电子邮箱/手机号"/>
+				        </p>
+				        <p class="password clear">
+					        <span></span>
+					        <i>密码格式错误</i>
+					        <input type="password" name="password" placeholder="输入密码"/>
+				        </p>
+				        <p class="remeber clear">
+				              <span class="lf">
+					              <i></i>
+					              <input type="hidden" name="remberMe" id="remberMe" value="0"/>
+							记住我
+				              </span>
+					        <span class="rf"><a href="#">忘记密码</a></span>
+				        </p>
+				        <p>
+					        <button class="selbutton" type="submit">登录</button>
+					        <a href="region.html" class="selbutton btn-region">注册</a>
+				        </p>
+				        <div class="otherregion">
+					        <h3>使用第三方登录</h3>
+					        <p>
+						        <i class="weibo"></i>
+						        <i class="qq"></i>
+					        </p>
+				        </div>
+			        </div>
+		        </div>
+
+            <div class="divider"></div>
+            <div class="region">
+                <a href="region.html">注册</a>
+            </div>
+            <!--购物车（有弹出框）-->
+            <div class="shoppingcar">
+                <i></i>
+                <!--弹出框-->
+                <div>
+                    <div class="empty">你的购物车还是空，赶快选购哦。</div>
+                </div>
+            </div>
+        </div>
+	    </form>
+    </div>
+    <!--二、搜索栏-->
+    <div id="search">
+        <a href="http://movie.mtime.com/10624/">
+            <img src="img/sousuolanbg.jpg" alt=""/>
+        </a>
+        <form action="">
+        <div class="search-box">
+            <!--搜索分类-->
+            <div class="search-box-select">
+                <strong>全部</strong><!-- 后期js改变html内容-->
+	              <b></b>
+	              <i></i>
+                <!--弹出框-->
+                <div class="sl-menu">
+                    <ul>
+                        <li>全部</li>
+                        <li>电影</li>
+                        <li>影人</li>
+                        <li>影院</li>
+                        <li>商品</li>
+                        <li>新闻</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--搜索输入框-->
+            <input type="text" placeholder="我要复仇"/>
+            <button>
+                <i></i>
+            </button>
+        </div>
+        </form>
+    </div>
+    <!--三、内容主体-->
+    <div id="section">
+        <!--1、滚动栏-->
+        <div class="slider aside">
+            <!--轮播图片-->
+            <div class="slider-box">
+	            <ul>
+		            <li class="show"><a href="" target="_blank"><img src="" alt=""/></a></li>
+		            <li><a href="" target="_blank"><img src="" alt=""/></a></li>
+		            <li><a href="" target="_blank"><img src="" alt=""/></a></li>
+		            <li><a href="" target="_blank"><img src="" alt=""/></a></li>
+	            </ul>
+            </div>
+            <!--轮播按钮-->
+            <div class="slider-button">
+                <i data-num="0" class="cur"></i>
+                <i data-num="1"></i>
+                <i data-num="2"></i>
+                <i data-num="3"></i>
+            </div>
+	          <div class="slider-control">
+		          <a class="prev"><b></b></a>
+		          <a class="next"><b></b></a>
+	          </div>
+        </div>
+        <!--2、今日热点-->
+        <div class="hotnews aside clear" id="hotnews">
+            <!--标题-->
+            <h1 class="title">今日热点</h1>
+            <!--导航-->
+            <div class="content-nav">
+                <i></i>
+                <ul class="clear">
+                    <li><a href="#">时光对话</a></li>
+                    <li><a href="#">产业聚焦</a></li>
+                    <li><a href="#">电视情报</a></li>
+                    <li><a href="#">全球拾趣</a></li>
+                </ul>
+            </div>
+            <!--内容-->
+            <dl class="hotnews-leftcate clear">
+                <dd class="news-item" title="冬兵新片《最后一搏》爆新片剧照 与苏朵儿饰演夫妻 漫步街头呵护准妈妈">
+                    <a href="#" class="img-box newsicon-img">
+                        <img src="img/ver1.0/6D84371F_121932.63716255.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">冬兵新片《最后一搏》爆新片剧照</a>
+                    </h3>
+                    <p>
+                        <a href="#">与苏朵儿饰演夫妻 漫步街头呵护准妈妈</a>
+                    </p>
+                </dd>
+                <dd class="news-item" title="别戴耳机！《安娜贝尔2》发新预告 鬼娃娃诞生溯源 小女孩背负恶灵咒怨视频">
+                    <a href="#" class="img-box newsicon-movie">
+                        <img src="img/ver1.0/A7A1325E_103854.48057424.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">别戴耳机！《安娜贝尔2》发新预告</a>
+                    </h3>
+                    <p>
+                        <a href="#">鬼娃娃诞生溯源 小女孩背负恶灵咒怨视频</a>
+                    </p>
+                </dd>
+                <dd class="news-item" title="“老段是个难搞的演员，名声远扬” 专访《非凡任务》主演段奕宏谈对戏痴迷">
+                    <a href="#" class="img-box">
+                        <img src="img/ver1.0/A638673B_100200.95723612.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">“老段是个难搞的演员，名声远扬”</a>
+                    </h3>
+                    <p>
+                        <a href="#">专访《非凡任务》主演段奕宏谈对戏痴迷</a>
+                    </p>
+                </dd>
+                <dd class="news-item" title="《蓝精灵：寻找神秘村》美国首映 黛米·洛瓦托领衔众星亮相红毯图集">
+                    <a href="#" class="img-box newsicon-img">
+                        <img src="img/ver1.0/578A3CC0_111130.51135773.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">《蓝精灵：寻找神秘村》美国首映</a>
+                    </h3>
+                    <p>
+                        <a href="#">黛米·洛瓦托领衔众星亮相红毯图集</a>
+                    </p>
+                </dd>
+                <dd class="news-item" title="盖里奇《亚瑟王》5月12日同步上映 新预告展现亚瑟王经典“拔剑瞬间”视频">
+                    <a href="#" class="img-box newsicon-movie">
+                        <img src="img/ver1.0/E0A34183_092644.64431149.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">盖里奇《亚瑟王》5月12日同步上映</a>
+                    </h3>
+                    <p>
+                        <a href="#">新预告展现亚瑟王经典“拔剑瞬间”视频</a>
+                    </p>
+                </dd>
+                <dd class="news-item" title="梦工厂《宝贝老板》北美周五夺冠 《攻壳机动队》不敌《美女野兽》获第三">
+                    <a href="#" class="img-box">
+                        <img src="img/ver1.0/4D4E159B_085858.64143079.jpg" alt="影讯图片"/>
+                    </a>
+                    <h3>
+                        <a href="#">梦工厂《宝贝老板》北美周五夺冠</a>
+                    </h3>
+                    <p>
+                        <a href="#">《攻壳机动队》不敌《美女野兽》获第三</a>
+                    </p>
+                </dd>
+
+            </dl>
+            <dl class="hotnews-rightcate clear">
+                <div class="live-item clear">
+                    <a href="#" class="img-box newsicon-movie">
+                        <span class="booking-icon">预约中</span>
+                        <img src="img/ver1.0/6DAFD30C_101221.83248819.jpg" alt="《攻壳机动队》电影主题展——灵魂重燃派对"/>
+                    </a>
+                    <h3 class="live-title">
+                        <a href="#" >《攻壳机动队》电影主题展——灵魂重燃派对</a>
+                    </h3>
+                </div>
+                <div class="live-box fix">
+                    <h3>更多直播</h3>
+                    <dl class="live-list">
+                        <dd class="fix">
+                            <b></b>
+                            <h4>
+                                <a href="#">《速度与激情》潘怡良时...</a>
+                            </h4>
+                            <p><span>2017年3月31日</span></p>
+                            <a href="http://live.mtime.com/?liveId=569" target="_blank">回放</a>
+                        </dd>
+                        <dd class="fix">
+                            <b></b>
+                            <h4>
+                                <a href="#">《速度与激情》潘怡良时...</a>
+                            </h4>
+                            <p><span>2017年3月31日</span></p>
+                            <a href="http://live.mtime.com/?liveId=569" target="_blank">回放</a>
+                        </dd>
+                        <dd class="fix">
+                            <b></b>
+                            <h4>
+                                <a href="#">《速度与激情》潘怡良时...</a>
+                            </h4>
+                            <p><span>2017年3月31日</span></p>
+                            <a href="http://live.mtime.com/?liveId=569" target="_blank">回放</a>
+                        </dd>
+                        <dd class="fix">
+                            <b></b>
+                            <h4>
+                                <a href="live.mtime.com" titile="查看更多">查看更多&gt;&gt;</a>
+                            </h4>
+                        </dd>
+                    </dl>
+                </div>
+            </dl>
+            <div class="more clear">
+                <a href="http://news.mtime.com">查看更多</a>
+            </div>
+        </div>
+        <!--3、广告01-->
+        <div class="banner">
+            <a href="#" target="_blank">
+                <img src="img/ver1.0/FD422F36_0f000rTh7yVTYbn97MGVPf.jpg" alt=""/>
+            </a>
+        </div>
+        <!--4、购票-->
+        <div class="ticketregion aside" id="ticketregion">
+            <div>
+                <div class="ticketregion-title navbar">
+                    <ul>
+                        <li>正在售票 <span>18</span> 部</li>
+                        <li>即将上映 <span>47</span> 部</li>
+                        <li>优惠活动</li>
+                    </ul>
+                </div>
+                <div class="ticketregion-content nav-menu clear">
+	                <div class="t-content1 ">
+		                <div class="ticketregion-info fix clear">
+			                <p>
+				                <i></i><!--地图图标-->
+				                <span>佛山</span>
+				                <b class="sub2"></b><!--下标-->
+			                </p>
+			                <div class="select-box">
+                        <span>
+                            <em>选影片</em>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i>共<span>16</span>部</i>
+                        </span>
+				                <b class="sub2"></b>
+			                </div>
+			                <div class="select-box">
+                        <span>
+                            <em>选影院</em>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i>共<span>16</span>部</i>
+                        </span>
+				                <b class="sub2"></b>
+			                </div>
+			                <div class="select-box unactive">
+                        <span>
+                            <em>选时间</em>
+                        </span>
+				                <b class="sub2"></b>
+			                </div>
+			                <div class="i-btnselect">
+				                <a class="selbutton btnfalse" target="_blank">快速购票</a>
+			                </div>
+		                </div>
+		                <div class="movie-select select-content clear">
+			                <dl class="fix">
+				                <dt class="clear">
+					                <div class="lf">
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/104229.12085458_170X256X4.jpg" alt="嫌疑人X的献身" title="嫌疑人X的献身"/>
+							                <i class="grade-icon"><span>7.0</span></i>
+						                </a>
+					                </div>
+					                <div class="rf">
+						                <h3><a href="http://movie.mtime.com/movie/229559/">嫌疑人X的献身</a></h3>
+						                <p>03月31日上映-
+							                <a href="http://movie.mtime.com/movie/search/section/?type=Drama">剧情</a>/
+							                <a href="http://movie.mtime.com/movie/search/section/?type=Mystery">悬疑</a>
+						                </p>
+						                <p>112分钟-</p>
+						                <p class="combox">
+							                <i></i>
+							                天才好友因杀人案上演生死对决
+						                </p>
+						                <p class="movie-price">
+							                <b>32</b>元起
+						                </p>
+						                <div class="btn-select">
+							                <a href="http://theater.mtime.com/China_Guangdong_Province_Foshan/movie/229559/" class="selbutton" target="_blank" >选座购买</a>
+						                </div>
+					                </div>
+				                </dt>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+				                <dd>
+					                <div>
+						                <a href="#">
+							                <b class="hot-icon"></b>
+							                <img src="img/ver1.0/101155.93555664_126X190X4.jpg" alt="绑架者"/>
+							                <i class="grade-icon">6.3</i>
+							                <div class="cinemaitem2">
+								                <div class="cinemaitem2-cate">
+									                <p>3月31号上映</p>
+									                <p>动作/犯罪</p>
+									                <p>95分钟</p>
+								                </div>
+								                <p class="cinema-comment">
+									                <span>警察与绑匪共同寻找真相</span>
+								                </p>
+								                <p class="movie-price"><b>32</b>元起</p>
+
+							                </div>
+						                </a>
+						                <h4>
+							                <a href="http://movie.mtime.com/230023/">绑架者</a>
+						                </h4>
+						                <a href="theater.movie.com" class="selbutton">选座购票</a>
+					                </div>
+				                </dd>
+
+			                </dl>
+		                </div>
+		                <div class="selbtn movie-sel-next sel-next"><i></i></div>
+		                <div class="selbtn movie-sel-prev sel-prev"><i></i></div>
+	                </div>
+	                <div class="t-content2 ">
+										<div class="movie-coming select-content">
+											<dl>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+												<dd>
+													<p>4月7日</p>
+													<div class="showbox">
+														<a href="#"><img src="img/ver1.0/093006.46634770_126X190X4.jpg" alt=""/></a>
+														<div class="showtype">
+															<p class="title"><a href="#">攻壳机动队</a></p>
+															<p><span>1375</span>人想看<a href="http://movie.mtime.com/movie/search/section/?type=Sci-Fi" target="_blank">科幻/</a><a href="http://movie.mtime.com/movie/search/section/?type=Action" target="_blank">动作</a></p>
+															<p>导演：鲁伯特·山德斯</p>
+															<p><a href="#">预告片</a></p>
+															<p></p>
+														</div>
+														<div class="showticket">
+															<b><strong>27</strong>元起</b>
+															<a class="btn-green" href="#">超前预售</a>
+														</div>
+													</div>
+
+												</dd>
+											</dl>
+										</div>
+		                <div class="selbtn movie-sel-next2 sel-next">
+			                <i></i>
+		                </div>
+		                <div class="selbtn movie-sel-prev2 sel-prev">
+			                <i></i>
+		                </div>
+		                <div class="shadow-left btn-shadow"></div>
+		                <div class="shadow-right btn-shadow"></div>
+	                </div>
+	                <div class="t-content3 ">
+		                <div><a href="http://feature.mtime.com/item/2017/Wzyh/">
+			                <img src="img/ver1.0/162645.69603125.jpg" alt="温州银行精彩大片10元看"/>
+		                </a></div>
+	                </div>
+                </div>
+	            <div class="more clear">
+		            <a target="_blank" href="http://theater.mtime.com/">查看更多</a>
+	            </div>
+            </div>
+
+        </div>
+        <!--6、正版商城-->
+        <div class="mall-region aside clear" id="mall-region">
+          <!--标题-->
+          <h1 class="title">正版商城</h1>
+          <!--导航-->
+          <div class="content-nav">
+            <i></i>
+            <ul class="clear">
+              <li><a target="_blank" href="#">新品登录</a></li>
+              <li><a target="_blank" href="#">热销爆款</a></li>
+              <li><a target="_blank" href="#">折扣促销</a></li>
+              <li><a target="_blank" href="#">超前预售</a></li>
+            </ul>
+          </div>
+          <div class="mall-content">
+            <div class="rollingbar">
+              <dl class="show clear">
+                    <dd>
+	                    <dl>
+		                    <dd>
+			                    <a target="_blank" href="#" style="position:relative;">
+				                    <img src="img/ver1.0/9E46A28D_113450.41811215.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dd>
+		                    <dd>
+			                    <a target="_blank" href="#">
+				                    <img src="img/ver1.0/54DBDA60_113901.51714601.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dd>
+	                    </dl>
+                    </dd>
+                    <dd>
+	                    <dl>
+		                    <dt>
+			                    <a target="_blank" href="#">
+				                    <img src="img/ver1.0/CB34F1AF_112350.86934400.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dt>
+		                    <dt>
+			                    <a target="_blank" href="#">
+				                    <img src="img/ver1.0/13CD804A_112642.26830795.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dt>
+	                    </dl>
+                    </dd>
+                    <dd>
+	                    <dl>
+		                    <dd>
+			                    <a target="_blank" href="#">
+				                    <img src="img/ver1.0/25852F66_113711.44520804.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dd>
+		                    <dd>
+			                    <a target="_blank" href="#">
+				                    <img src="img/ver1.0/84CACF63_114157.74620682.jpg" alt="Hot Toys银河护卫队2火箭人偶"/>
+			                    </a>
+		                    </dd>
+	                    </dl>
+                    </dd>
+                </dl>
+	            <dl class="clear">
+		            <dd>
+			            <dl>
+				            <dd>
+					            <a target="_blank" href="#" style="position:relative;">
+						            <img src="img/ver1.0/85831902_114341.18288880.jpg" alt="Weta 攻壳机动队草薙素子人偶"/>
+					            </a>
+				            </dd>
+				            <dd>
+					            <a target="_blank" href="#">
+						            <img src="img/ver1.0/509EA462_114831.10239565.jpg" alt="哆啦A梦 记忆面包U盘"/>
+					            </a>
+				            </dd>
+			            </dl>
+		            </dd>
+		            <dd>
+			            <dl>
+				            <dt>
+					            <a target="_blank" href="#">
+						            <img src="img/ver1.0/F9BB5AC5_112049.30545491.jpg" alt="超实用周边出游装备大全"/>
+					            </a>
+				            </dt>
+				            <dt>
+					            <a target="_blank" href="#">
+						            <img src="img/ver1.0/EB5F1973_112157.83466056.jpg" alt="超实用周边出游装备大全"/>
+					            </a>
+				            </dt>
+			            </dl>
+		            </dd>
+		            <dd>
+			            <dl>
+				            <dd>
+					            <a target="_blank" href="#">
+						            <img src="img/ver1.0/AC9769FB_114711.60282766.jpg" alt="沃奇 蝙蝠侠热感应杯身 "/>
+					            </a>
+				            </dd>
+				            <dd>
+					            <a target="_blank" href="#">
+						            <img src="img/ver1.0/6DAA699E_114902.17251490.jpg" alt="美女与野兽印花浴巾"/>
+					            </a>
+				            </dd>
+			            </dl>
+		            </dd>
+	            </dl>
+	            <div class="next selbtn">
+		            <i></i>
+	            </div>
+	            <div class="prev selbtn">
+		            <i></i>
+	            </div>
+            </div>
+	          <div class="tradercommend">
+							<dl>
+								<dd>
+									<img src="img/ver1.0/165035.95801795.jpg" alt=""/>
+									<a target="_blank" href="http://list.mall.mtime.com/?c1=43"></a>
+									<div>
+										<h4>居家日常</h4>
+										<ul class="clear">
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=43&c2=66">抱枕靠垫</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=43&c2=67">创意文具</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=43&c2=65">水杯水壶</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=43">更多&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</dd>
+								<dd>
+									<img src="img/ver1.0/163935.12213930_03.jpg" alt=""/>
+									<a target="_blank" href="http://list.mall.mtime.com/?c1=42"></a>
+									<div>
+										<h4>服装装饰</h4>
+										<ul class="clear">
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=42&c2=44">潮牌男装</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=42&c2=45">时尚女装</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=42&c2=47">服饰配件</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=42">更多&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</dd>
+								<dd>
+									<img src="img/ver1.0/164718.89003185.jpg" alt=""/>
+									<a target="_blank" href="http://list.mall.mtime.com/?c1=25"></a>
+									<div>
+										<h4>玩具模型</h4>
+										<ul class="clear">
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=25&c2=33">模型公仔</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=25&c2=95">仿真收藏</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=43&c2=65">变形金刚</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=25">更多&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</dd>
+								<dd>
+									<img src="img/ver1.0/163935.68333930.jpg" alt=""/>
+									<a target="_blank" href="http://list.mall.mtime.com/?c1=8"></a>
+									<div>
+										<h4>数码配件</h4>
+										<ul class="clear">
+											<li><a target="_blank" href="http://list.mall.mtime.com/?sf=4&c1=8&c2=19">手机配件</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=8&c2=9">充电装备</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=8&c2=10">时尚U盘</a></li>
+											<li><a target="_blank" href="http://list.mall.mtime.com/?c1=8">更多&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
+	          </div>
+	          <div class="more clear">
+		          <a target="_blank" href="http://mall.mtime.com/">查看更多</a>
+	          </div>
+          </div>
+        </div>
+	      <!--5、广告02-->
+	      <div class="banner">
+		    <a href="#" target="_blank">
+			    <img src="img/ver1.0/EACA2EDC_0f0007ZRkTaNqhoeqBwksf.jpg" alt=""/>
+		    </a>
+	    </div>
+        <!--7、时光精选——预告片-->
+        <div class="mselectionregion aside" id="mselectionregion">
+	        <!--标题-->
+	        <h1 class="title">时光精选</h1>
+	        <!--导航-->
+	        <div class="content-nav">
+		        <i></i>
+		        <ul class="clear">
+			        <li><a target="_blank" href="#">时光电影TOP100</a></li>
+			        <li><a target="_blank" href="#">观影指南</a></li>
+			        <li><a target="_blank" href="#">获奖佳片</a></li>
+			        <li><a target="_blank" href="#">特约影评</a></li>
+			        <li><a target="_blank" href="#">卡片大富翁</a></li>
+			        <li><a target="_blank" href="#">电影踩踩踩</a></li>
+		        </ul>
+	        </div>
+	        <div class="mselectionregion-content clear">
+		        <div class="clear">
+			        <!--左边预告栏-->
+			        <div class="mselection-trailer clear lf">
+				        <h2>新片预告
+					        <span class="rf"><a target="_blank" href="#">更多&gt;</a></span>
+				        </h2>
+				        <!--大的预告栏-->
+				        <div class="trailer-lg lf">
+					        <a target="_blank" href="#" class="newsicon-movie-lg" title="《加勒比海盗5》新预告 小铁匠父子相认">
+						        <img src="img/ver1.0/459EDC22_201457.94009153.jpg" alt="《加勒比海盗5》新预告 小铁匠父子相认"/>
+					        </a>
+					        <h2>
+						        <a target="_blank" href="#">《加勒比海盗5》新预告 小铁匠父子相认</a>
+					        </h2>
+					        <p>
+						        <span>2017.5.26美国 上映</span>
+					        </p>
+				        </div>
+				        <!--三个小预告合集-->
+				        <div class="trailer-box rf">
+					        <ul>
+						        <li class="trailer-sm">
+							        <a target="_blank" class="newsicon-movie-sm" href="#" title="《安娜贝尔2》预告前瞻">
+								        <img src="img/ver1.0/9B5B66C9_231147.24589988.jpg" alt="《安娜贝尔2》预告前瞻"/>
+												<div>
+													<p>《安娜贝尔2》预告前瞻</p>
+													<span>2017.5.19北美 上映</span>
+												</div>
+							        </a>
+						        </li>
+						        <li class="trailer-sm">
+							        <a target="_blank" class="newsicon-movie-sm" href="#" title="《速激8》最新特辑 ">
+								        <img src="img/ver1.0/D3A5B9C3_105032.98184513.jpg" alt="《速激8》最新特辑 "/>
+								        <div>
+									        <p>《速激8》最新特辑</p>
+									        <span>2017.4.14中国 上映</span>
+								        </div>
+							        </a>
+						        </li>
+						        <li class="trailer-sm">
+							        <a target="_blank" class="newsicon-movie-sm" href="#" title="《猩球崛起3》中文新预告">
+								        <img src="img/ver1.0/4859E0AD_112035.76101598.jpg" alt="《猩球崛起3》中文新预告"/>
+								        <div>
+									        <p>《猩球崛起3》中文新预告</p>
+									        <span>2017.7.14美国 上映</span>
+								        </div>
+							        </a>
+						        </li>
+					        </ul>
+				        </div>
+			        </div>
+			        <div class="movie-guide rf">
+								<h2>观影指南</h2>
+				        <div class="movie-guide-content">
+					        <!--内地影市前瞻-->
+					        <div>
+						        <a target="_blank" href="http://movie.mtime.com/comingsoon"><img src="img/ver1.0/FFA024B1_104157.34351862.jpg" alt=""/></a>
+					        </div>
+					        <!--影片热度排名-->
+					        <div class="movie-guide-detail">
+						        <dl>
+							        <dt>
+								        <span>影片名</span>
+								        <span>时光热度排名</span>
+							        </dt>
+							        <dd>
+								        <span class="movie-name">
+									        <a target="_blank" href="http://movie.mtime.com/219801/">攻壳机动队</a>
+								        </span>
+								        <span class="movie-rank">
+									        <em>01</em>
+									        <i class="up"></i>
+								        </span>
+								        <span class="movie-action">
+									        <b class="movie-action-btn  movie-action-presale"></b>
+								        </span>
+							        </dd>
+							        <dd class="od">
+								        <span class="movie-name">
+									        <a target="_blank" href="http://movie.mtime.com/224149/">速度与激情8</a>
+								        </span>
+								        <span class="movie-rank">
+									        <em>02</em>
+									        <i>-</i>
+								        </span>
+								        <span class="movie-action">
+									        <b class="movie-action-btn  movie-action-presale"></b>
+								        </span>
+							        </dd>
+							        <dd>
+								        <span class="movie-name">
+									        <a target="_blank" href="http://movie.mtime.com/12175/">大话西游之大...</a>
+								        </span>
+								        <span class="movie-rank">
+									        <em>03</em>
+									        <i>-</i>
+								        </span>
+								        <span class="movie-action">
+									        <b class="movie-action-btn  movie-action-like"></b>
+								        </span>
+							        </dd>
+							        <dd class="od">
+								        <span class="movie-name">
+									        <a target="_blank" href="http://movie.mtime.com/70233/">正义联盟</a>
+								        </span>
+								        <span class="movie-rank">
+									        <em>04</em>
+									        <i class="down"></i>
+								        </span>
+								        <span class="movie-action">
+									        <b class="movie-action-btn movie-action-like"></b>
+								        </span>
+							        </dd>
+							        <dd>
+								        <span class="rf">
+									        <a target="_blank" href="http://movie.mtime.com/comingsoon/#comingsoon">更多</a>
+								        </span>
+							        </dd>
+						        </dl>
+					        </div>
+				        </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+        <!--8、全球拾趣-->
+        <div class="funnew aside" id="funnew">
+	        <h2>全球拾趣</h2>
+	        <div>
+		        <dl class="funnew-cate clear">
+			        <dd class="news-item" title='不演金刚狼的狼叔也是超级英雄 "地球最强秀"片场着火 狼叔救出埃夫隆'>
+				        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567875.html" class="img-box">
+					        <img src="img/ver1.0/07A1B2E0_215646.73035469.jpg" alt='不演金刚狼的狼叔也是超级英雄 "地球最强秀"片场着火 狼叔救出埃夫隆'/>
+				        </a>
+				        <h3>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567875.html">不演金刚狼的狼叔也是超级英雄</a>
+				        </h3>
+				        <p>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567875.html">"地球最强秀"片场着火 狼叔救出埃夫隆</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='欧美大咖明星一周时尚街拍 春风吹遍劳模姐花裙 拉斯维加斯迎宣片大军'>
+				        <a target="_blank" href="http://news.mtime.com/2017/03/31/1567839.html" class="img-box">
+					        <img src="img/ver1.0/F62FB34F_201613.81854132.jpg" alt='欧美大咖明星一周时尚街拍 春风吹遍劳模姐花裙 拉斯维加斯迎宣片大军'/>
+				        </a>
+				        <h3>
+					        <a target="_blank" href="http://news.mtime.com/2017/03/31/1567839.html">欧美大咖明星一周时尚街拍</a>
+				        </h3>
+				        <p>
+					        <a target="_blank" href="http://news.mtime.com/2017/03/31/1567839.html">"春风吹遍劳模姐花裙 拉斯维加斯迎宣片大军</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='巨型"金刚"空降城市街头 《金刚：骷髅岛》内地票房破7亿'>
+				        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567866.html" class="img-box">
+					        <img src="img/ver1.0/C0675FAD_174854.60621925.jpg" alt='巨型"金刚"空降城市街头 《金刚：骷髅岛》内地票房破7亿'/>
+				        </a>
+				        <h3>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567866.html">巨型"金刚"空降城市街头</a>
+				        </h3>
+				        <p>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567866.html">《金刚：骷髅岛》内地票房破7亿</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='因为他，我们记住这一分钟 “哥哥”张国荣逝世14周年 回顾14个经典银幕瞬间'>
+				        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567853.html" class="img-box">
+					        <img src="img/ver1.0/4C4AFA95_154839.83181292.jpg" alt='因为他，我们记住这一分钟 “哥哥”张国荣逝世14周年 回顾14个经典银幕瞬间'/>
+				        </a>
+				        <h3>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567853.html">因为他，我们记住这一分钟</a>
+				        </h3>
+				        <p>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567853.html">“哥哥”张国荣逝世14周年 回顾14个经典银幕瞬间</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='大鹏群发“诈骗”短信大闹愚人节 《父子雄兵》揭秘成功人士真相'>
+				        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567854.html" class="img-box">
+					        <img src="img/ver1.0/38C26E68_164543.26619773.jpg" alt='大鹏群发“诈骗”短信大闹愚人节 《父子雄兵》揭秘成功人士真相'/>
+				        </a>
+				        <h3>
+					        <a target="_blank" href="http://news.mtime.com/2017/04/01/1567854.html">大鹏群发“诈骗”短信大闹愚人节</a>
+				        </h3>
+				        <p>
+					        <a href="http://news.mtime.com/2017/04/01/1567854.html">《父子雄兵》揭秘成功人士真相</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='"速度与激情"携手潘怡良压轴时装周 时尚与电影碰撞 “速激”元素无处不在'>
+				        <a href="http://news.mtime.com/2017/04/01/1567858.html" class="img-box">
+					        <img src="img/ver1.0/287558EC_152614.20800417.jpg" alt='"速度与激情"携手潘怡良压轴时装周 时尚与电影碰撞 “速激”元素无处不在'/>
+				        </a>
+				        <h3>
+					        <a href="http://news.mtime.com/2017/04/01/1567858.html">速度与激情"携手潘怡良压轴时装周</a>
+				        </h3>
+				        <p>
+					        <a href="http://news.mtime.com/2017/04/01/1567858.html">时尚与电影碰撞 “速激”元素无处不在</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='徐峥顶一头秀发南京拍《印度药神》 你们之前看错的“神药神油”也出现了'>
+				        <a href="http://news.mtime.com/2017/03/31/1567826.html" class="img-box">
+					        <img src="img/ver1.0/651FFA57_183036.58590180.jpg" alt='徐峥顶一头秀发南京拍《印度药神》 你们之前看错的“神药神油”也出现了'/>
+				        </a>
+				        <h3>
+					        <a href="http://news.mtime.com/2017/03/31/1567826.html">徐峥顶一头秀发南京拍《印度药神》</a>
+				        </h3>
+				        <p>
+					        <a href="http://news.mtime.com/2017/03/31/1567826.html">你们之前看错的“神药神油”也出现了</a>
+				        </p>
+			        </dd>
+			        <dd class="news-item" title='马达：最自豪的成就是"心灵捕手" Mtime20问·"约会"大牌明星第23期'>
+				        <a href="http://news.mtime.com/2017/03/30/1567787.html" class="img-box">
+					        <img src="img/ver1.0/1F711E16_140840.99038300.jpg" alt='马达：最自豪的成就是"心灵捕手" Mtime20问·"约会"大牌明星第23期'/>
+				        </a>
+				        <h3>
+					        <a href="http://news.mtime.com/2017/03/30/1567787.html">马达：最自豪的成就是"心灵捕手"</a>
+				        </h3>
+				        <p>
+					        <a href="http://news.mtime.com/2017/03/30/1567787.html">Mtime20问·"约会"大牌明星第23期</a>
+				        </p>
+			        </dd>
+		        </dl>
+		        <div class="more clear">
+			        <a href="http://news.mtime.com/fun/">查看更多</a>
+		        </div>
+	        </div>
+        </div>
+        <!--9、特色榜单-->
+        <div class="indexmovielist aside clear" id="indexmovielist">
+					<div class="movie-list lf">
+						<h2 class="region-title">特色榜单
+							<span class="rf"><a href="#">更多&gt;</a></span>
+						</h2>
+						<ul class="movie-list-cate">
+							<li class="lf clear">
+								<div class="movieimg-list clear">
+									<a href="http://movie.mtime.com/list/1477.html" alt="“哥哥”张国荣表演生涯10大佳片" class="comment-img-lg lf">
+										<img src="img/ver1.0/A4E123FB_110738.43884059.jpg" alt="“哥哥”张国荣表演生涯10大佳片"/>
+									</a>
+									<a href="http://movie.mtime.com/list/1477.html" alt="“哥哥”张国荣表演生涯10大佳片"  class="comment-img-sm lf">
+										<img src="img/ver1.0/62A662CD_111303.67128640.jpg" alt="“哥哥”张国荣表演生涯10大佳片"/>
+									</a>
+									<a href="http://movie.mtime.com/list/1477.html" alt="“哥哥”张国荣表演生涯10大佳片"  class="comment-img-sm lf">
+										<img src="img/ver1.0/8013ABCB_111312.80589856.jpg" alt="“哥哥”张国荣表演生涯10大佳片"/>
+										<div>
+											<span>
+												<b>10</b>部电影&gt;
+											</span>
+										</div>
+									</a>
+								</div>
+								<p><a href="http://movie.mtime.com/list/1477.html" alt="“哥哥”张国荣表演生涯10大佳片" >哥哥张国荣表演生涯十大佳片</a></p>
+							</li>
+							<li class="lf clear">
+								<div class="movieimg-list clear">
+									<a href="http://movie.mtime.com/new/" alt="热门新片推荐" class="comment-img-lg lf">
+										<img src="img/ver1.0/81A789DD_111443.39939759.jpg" alt="热门新片推荐"/>
+									</a>
+									<a href="http://movie.mtime.com/new/" alt="热门新片推荐片"  class="comment-img-sm lf">
+										<img src="img/ver1.0/AD0D7EE9_111427.22784293.jpg" alt="热门新片推荐"/>
+									</a>
+									<a href="http://movie.mtime.com/new/" alt="热门新片推荐"  class="comment-img-sm lf">
+										<img src="img/ver1.0/560965FA_111424.71985760.jpg" alt="热门新片推荐"/>
+										<div>
+											<span>
+												<b>15</b>部电影&gt;
+											</span>
+										</div>
+									</a>
+								</div>
+								<p><a href="#" alt="热门新片推荐" >热门新片推荐</a></p>
+							</li>
+							<li class="lf clear">
+								<div class="movieimg-list clear">
+									<a href="http://movie.mtime.com/list/1477.html" alt="21世纪最佳“恶人”Top15" class="comment-img-lg lf">
+										<img src="img/ver1.0/F1B81A05_162836.72569223.jpg" alt="热门新片推荐"/>
+									</a>
+									<a href="http://movie.mtime.com/list/1477.html" alt="21世纪最佳“恶人”Top15"  class="comment-img-sm lf">
+										<img src="img/ver1.0/E72B8FF8_163311.63490358.jpg" alt="热门新片推荐"/>
+									</a>
+									<a href="http://movie.mtime.com/list/1477.html" alt="21世纪最佳“恶人”Top15"  class="comment-img-sm lf">
+										<img src="img/ver1.0/BC337338_163317.99079440.jpg" alt="21世纪最佳“恶人”Top15"/>
+										<div>
+											<span>
+												<b>15</b>部电影&gt;
+											</span>
+										</div>
+									</a>
+								</div>
+								<p><a href="http://movie.mtime.com/list/1477.html" alt="21世纪最佳“恶人”Top15" >21世纪最佳“恶人”Top15</a></p>
+							</li>
+							<li class="lf clear">
+								<div class="movieimg-list clear">
+									<a href="http://movie.mtime.com/boxoffice/#CN/2017" alt="2017内地票房榜" class="comment-img-lg lf">
+										<img src="img/ver1.0/9AC22F22_101625.47489900.jpg" alt="2017内地票房榜"/>
+									</a>
+									<a href="http://movie.mtime.com/boxoffice/#CN/2017" alt="2017内地票房榜"  class="comment-img-sm lf">
+										<img src="img/ver1.0/5F4FC350_101830.34586964.jpg" alt="2017内地票房榜"/>
+									</a>
+									<a href="http://movie.mtime.com/boxoffice/#CN/2017" alt="2017内地票房榜"  class="comment-img-sm lf">
+										<img src="img/ver1.0/C8E1F6CA_102008.87183332.jpg" alt="2017内地票房榜"/>
+										<div>
+											<span>
+												<b>50</b>部电影&gt;
+											</span>
+										</div>
+									</a>
+								</div>
+								<p><a href="http://movie.mtime.com/boxoffice/#CN/2017" alt="2017内地票房榜" >2017内地票房榜</a></p>
+							</li>
+						</ul>
+					</div>
+	        <div class="mboxoffice lf">
+		        <h2>电影票房</h2>
+		        <div class="mboxoffice-nav">
+			        <ul class="clear">
+				        <li><div><span>内地</span></div></li>
+				        <li><div><span>北美</span></div></li>
+				        <li><div><span>全球</span></div></li>
+			        </ul>
+		        </div>
+		        <div class="mboxoffice-content">
+			        <dl class="show">
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>01</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/226894/" class="lf">
+							        <img src="img/ver1.0/3BD9BA66_104636.24751042_135X190X4.jpg" alt="金刚：骷髅岛"/>
+							        <span class="grade-icon">7.3</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/226894/">金刚：骷髅岛</a></h3>
+							        <div>
+								          <p>日票房：<span>3434.1</span>万</p>
+								          <p>累计：<span>8.04</span>亿</p>
+								          <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>02</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/229559/" class="lf">
+							        <img src="img/ver1.0/5C39E7A9_104225.15382815_135X190X4.jpg" alt="嫌疑人X的献身"/>
+							        <span class="grade-icon">7.0</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/229559/" title="嫌疑人X的献身">嫌疑人X的献身</a></h3>
+							        <div>
+								        <p>日票房：<span>2992.3</span>万</p>
+								        <p>累计：<span>1.24</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>03</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/238038/" class="lf">
+							        <img src="img/ver1.0/9E745EFE_191509.79783491_135X190X4.jpg" alt="非凡任务"/>
+							        <span class="grade-icon">7.1</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/238038/">非凡任务</a></h3>
+							        <div>
+								        <p>日票房：<span>3434.1</span>万</p>
+								        <p>累计：<span>8.04</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+			        </dl>
+			        <dl>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>01</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/229559/" class="lf">
+							        <img src="img/ver1.0/5C39E7A9_104225.15382815_135X190X4.jpg" alt="嫌疑人X的献身"/>
+							        <span class="grade-icon">7.0</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/229559/" title="嫌疑人X的献身">嫌疑人X的献身</a></h3>
+							        <div>
+								        <p>日票房：<span>2992.3</span>万</p>
+								        <p>累计：<span>1.24</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>02</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/226894/" class="lf">
+							        <img src="img/ver1.0/3BD9BA66_104636.24751042_135X190X4.jpg" alt="金刚：骷髅岛"/>
+							        <span class="grade-icon">7.3</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/226894/">金刚：骷髅岛</a></h3>
+							        <div>
+								        <p>日票房：<span>3434.1</span>万</p>
+								        <p>累计：<span>8.04</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>03</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/238038/" class="lf">
+							        <img src="img/ver1.0/9E745EFE_191509.79783491_135X190X4.jpg" alt="非凡任务"/>
+							        <span class="grade-icon">7.1</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/238038/">非凡任务</a></h3>
+							        <div>
+								        <p>日票房：<span>3434.1</span>万</p>
+								        <p>累计：<span>8.04</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+			        </dl>
+			        <dl>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>01</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/238038/" class="lf">
+							        <img src="img/ver1.0/A3C021CA_112231.90243502_135X190X4.jpg" alt="非凡任务"/>
+							        <span class="grade-icon">7.1</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/195064/">美女与野兽</a></h3>
+							        <div>
+								        <p>周末票房：2.08亿</p>
+								        <p>累计：6.90亿</p>
+								        <p>单位：美元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>02</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/226894/" class="lf">
+							        <img src="img/ver1.0/3BD9BA66_104636.24751042_135X190X4.jpg" alt="金刚：骷髅岛"/>
+							        <span class="grade-icon">7.3</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/226894/">金刚：骷髅岛</a></h3>
+							        <div>
+								        <p>日票房：<span>3434.1</span>万</p>
+								        <p>累计：<span>8.04</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+				        <dd class="clear">
+					        <div class="mboxoffice-rank lf">
+						        <span>03</span>
+					        </div>
+					        <div class="mboxoffice-detail lf">
+						        <a href="http://movie.mtime.com/229559/" class="lf">
+							        <img src="img/ver1.0/5C39E7A9_104225.15382815_135X190X4.jpg" alt="嫌疑人X的献身"/>
+							        <span class="grade-icon">7.0</span>
+						        </a>
+						        <div class="lf">
+							        <h3><a href="http://movie.mtime.com/229559/" title="嫌疑人X的献身">嫌疑人X的献身</a></h3>
+							        <div>
+								        <p>日票房：<span>2992.3</span>万</p>
+								        <p>累计：<span>1.24</span>亿</p>
+								        <p>单位：元</p>
+							        </div>
+						        </div>
+					        </div>
+				        </dd>
+			        </dl>
+		        </div>
+						<p><span class="rf"><a href="http://movie.mtime.com/boxoffice/#world/weekend" target="_blank">更多&gt;</a></span></p>
+	        </div>
+        </div>
+        <!--10、影片热评-->
+        <div class="hotcomment aside clear" id="hotcomment">
+					<div class="hotcomment-list lf">
+						<h2 class="region-title">热门影评
+							<span class="rf"><a href="http://www.mtime.com/community/">更多&gt;</a></span>
+						</h2>
+						<div class="clear">
+							<div class="hotcommentbox-lg lf" >
+								<ul class="show">
+									<li>
+										<div class="hotcomentbox-lg-slide">
+											<a href="#" title="">
+												<img src="img/ver1.0/800A65D1_152808.54257971.jpg" alt=""/>
+											</a>
+										</div>
+										<div class="hotcommentbox-lg-article">
+											<p>
+												<span class="article"><a href="#">MrPink</a></span>
+												评
+												<span><a href="#">《四重奏》</a></span>
+												<span class="grade-icon inline">9.0</span>
+											</p>
+											<i class="article-img">
+												<a href="#"><img src="img/ver1.0/002127.72864780_64X64.jpg" alt="MrPink"/></a>
+											</i>
+										</div>
+										<div class="hotcommentbox-lg-body">
+											<h2><a href="http://i.mtime.com/2441238/blog/8001105/">四个“废柴”灵魂的相互慰藉</a></h2>
+											<p>
+												<i></i>人到中年，却没有一个人活成自己想要的样子。这个由四个loser组成的乐队，看似也不过是成年人步入一成不变前的最后挣扎。
+											</p>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<div class="hotcomentbox-lg-slide">
+											<a href="#" title="多年以后，仍难忘那道“灌汤黄鱼”">
+												<img src="img/ver1.0/24EFEB23_141026.58174267.jpg" alt="多年以后，仍难忘那道“灌汤黄鱼”"/>
+											</a>
+										</div>
+										<div class="hotcommentbox-lg-article">
+											<p>
+												<span class="article"><a href="#">未知者</a></span>
+												评
+												<span><a href="#">《金玉满堂》</a></span>
+												<span class="grade-icon inline">9.0</span>
+											</p>
+											<i class="article-img">
+												<a href="#"><img src="img/ver1.0/134956.14094793_64X64.jpg" alt="MrPink"/></a>
+											</i>
+										</div>
+										<div class="hotcommentbox-lg-body">
+											<h2><a href="http://i.mtime.com/2441238/blog/8001105/">多年以后，仍难忘那道“灌汤黄鱼”</a></h2>
+											<p>
+												<i></i>《金玉满堂》很多场戏都具有武林豪杰的气氛，无论是在音乐的渲染上，还是在镜头的运用，冥冥之间塑造出一种大侠比武的情怀。
+											</p>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<div class="hotcomentbox-lg-slide">
+											<a href="#" title="蜘蛛侠第二支预告里竟有17个彩蛋！">
+												<img src="img/ver1.0/368A3916_160937.10727982.jpg" alt="蜘蛛侠第二支预告里竟有17个彩蛋！"/>
+											</a>
+										</div>
+										<div class="hotcommentbox-lg-article">
+											<p>
+												<span class="article"><a href="#">革角力</a></span>
+												评
+												<span><a href="#">《蜘蛛侠：英雄归来》</a></span>
+												<span class="grade-icon inline">9.0</span>
+											</p>
+											<i class="article-img">
+												<a href="#"><img src="img/ver1.0/000358.88533795_64X64.jpg" alt="革角力"/></a>
+											</i>
+										</div>
+										<div class="hotcommentbox-lg-body">
+											<h2><a href="http://i.mtime.com/2441238/blog/8001105/">蜘蛛侠第二支预告里竟有17个彩蛋！</a></h2>
+											<p>
+												<i></i>这支预告也是漫威电影宇宙的一部分，其中充斥着大量彩蛋、引用和对漫画书的致意，比如秃鹫的外套，这件皮草款也致敬了漫画造型。
+											</p>
+										</div>
+									</li>
+								</ul>
+								<div class="sliderdot">
+									<i class="cur"></i>
+									<i></i>
+									<i></i>
+								</div>
+								<div class="next selbtn"><i></i></div>
+								<div class="prev selbtn"><i></i></div>
+							</div>
+							<div class="hotcommentbox-sm rf">
+								<ul>
+									<li class="clear">
+										<div class="hotcommentbox-sm-body lf">
+											<div>
+												<i></i><a href="http://i.mtime.com/hebebabe/blog/8001100/">国版有一个比日版做的不错的地方在于节奏，使得影片要紧凑的多，再加上故作悬疑的配乐制造出的一惊一乍的效果</a>
+											</div>
+											<p>
+												<span class="article"><a href="http://my.mtime.com/6107772">Mosquito史歌</a></span>
+												评
+												<span><a href="http://movie.mtime.com/229559">《嫌疑人X的献身》</a></span>
+												<span class="grade-icon inline">7.4</span>
+											</p>
+										</div>
+										<div class="hotcommentbox-sm-img rf">
+											<a href="http://movie.mtime.com/229559">
+												<img src="img/ver1.0/104229.12085458_170X256X4.jpg" alt="嫌疑人X的献身"/>
+											</a>
+										</div>
+									</li>
+									<li class="clear">
+										<div class="hotcommentbox-sm-body lf">
+											<div>
+												<i></i><a href="http://i.mtime.com/1127970/blog/8001095/">与其他爱情片子相比，爱乐之城的男女主角，没有生死，只有别离，与此后永远的围绕各自的生活公转。</a>
+											</div>
+											<p>
+												<span class="article"><a href="http://my.mtime.com/1127970">9排7座</a></span>
+												评
+												<span><a href="http://movie.mtime.com/219784">《爱乐之城》</a></span>
+												<span class="grade-icon inline">7.4</span>
+											</p>
+										</div>
+										<div class="hotcommentbox-sm-img rf">
+											<a href="http://movie.mtime.com/219784">
+												<img src="img/ver1.0/41C19434_093237.40835159_80X120X4.jpg" alt="爱乐之城"/>
+											</a>
+										</div>
+									</li>
+									<li class="clear">
+										<div class="hotcommentbox-sm-body lf">
+											<div>
+												<i></i><a href="http://i.mtime.com/kiki204629/blog/8001159/">如果写一封信或者一张卡片给未来的自己，你会怎么起笔呢？那未来的你看到穿越的文字又是一种怎样的体验呢？</a>
+											</div>
+											<p>
+												<span class="article"><a href="http://my.mtime.com/3295925">kiki204629</a></span>
+												评
+												<span><a href="http://movie.mtime.com/235532">《生日卡片》</a></span>
+												<span class="grade-icon inline">8.0</span>
+											</p>
+										</div>
+										<div class="hotcommentbox-sm-img rf">
+											<a href="http://movie.mtime.com/235532">
+												<img src="img/ver1.0/6AA0340A_160440.96171908_80X120X4.jpg" alt="生日卡片"/>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+	        <div class="community rf">
+						<h2>社区活动</h2>
+		        <div class="community-content">
+							<div class="community-content-img">
+								<a href="#">
+									<img src="img/ver1.0/D3953F70_145110.21759597.jpg" alt=""/>
+									<span>有奖征文</span>
+								</a>
+
+							</div>
+			        <div class="community-content-body fix">
+								<h3>我是男生，但我也是男生</h3>
+				        <div>
+					        <i></i>
+					        <span>04月01日 00:00</span>
+				        </div>
+				        <p>李安曾说：“人人心中都有一座断背山，那是一个永远也无法抵达的梦。”而在这个世界上，爱任何一个人，都...</p>
+			        </div>
+			        <p><button class="selbutton">我参加</button></p>
+		        </div>
+	        </div>
+        </div>
+        <!--11、广告03-->
+	      <div class="banner">
+		      <a href="#" target="_blank">
+			      <img src="img/ver1.0/banner3.jpg" alt=""/>
+		      </a>
+	      </div>
+    </div>
+    <!--四、页脚-->
+    <div id="footer">
+	    <div class="line"></div>
+	    <div class="help">
+		    <!--左边第一个板块-->
+				<div class="help-cate01 lf">
+					<a href="#">
+					</a>
+					<ul class="clear">
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+						<li class="lf"><a href="#">加入我们</a></li>
+					</ul>
+				</div>
+		    <!--分割线-->
+		    <div class="vertical-line lf">
+		    </div>
+		    <div class="help-cate02 lf">
+			    <ul class="clear">
+				    <li class="lf">
+					    <dl>
+						    <dt><a href="#">栏目</a></dt>
+						    <dd><a href="#">影院</a></dd>
+						    <dd><a href="#">影院</a></dd>
+						    <dd><a href="#">影院</a></dd>
+						    <dd><a href="#">影院</a></dd>
+					    </dl>
+				    </li>
+				    <li class="recommend lf">
+					    <dl class="clear">
+						    <dt><a href="#">推荐</a></dt>
+						    <dd class="lf"><a href="#">观影指南</a></dd>
+						    <dd class="lf"><a href="#">电影票房</a></dd>
+						    <dd class="lf"><a href="#">时光对话</a></dd>
+						    <dd class="lf"><a href="#">新片预告</a></dd>
+						    <dd class="lf"><a href="#">特色榜单</a></dd>
+						    <dd class="lf"><a href="#">电影猜猜猜</a></dd>
+						    <dd class="lf"><a href="#">全球拾趣</a></dd>
+						    <dd class="lf"><a href="#">卡片大富翁</a></dd>
+					    </dl>
+				    </li>
+				    <li class="flowus lf">
+					    <dl>
+						    <dt><a href="#">关注我们</a></dt>
+						    <dd class="weibo"><a href="#"></a></dd>
+						    <dd class="weixin"><a href="#"></a></dd>
+						    <dd class="rss"><a href="#"></a></dd>
+					    </dl>
+				    </li>
+			    </ul>
+		    </div>
+		    <!--分割线-->
+		    <div class="vertical-line lf">
+		    </div>
+		    <!--时光周刊-->
+		    <div class="mtime-week lf">
+					<h3>时光周刊 <span class="rf">第194期</span></h3>
+			    <div>
+				    <img src="img/ver1.0/135252.78779670.jpg" alt=""/>
+			    </div>
+			    <form action="">
+				    <p>
+					    <input type="text" value="邮箱地址"/>
+					    <button>订阅</button>
+				    </p>
+			    </form>
+		    </div>
+		    <!--页脚二维码-->
+		    <div class="footer-erweima lf">
+					<h3>手机购票 <span class="rf">方便 实惠</span></h3>
+			    <div>
+				    <a href="#"></a>
+			    </div>
+			    <p>扫描二维码&nbsp;下载客户端</p>
+		    </div>
+	    </div>
+	    <div class="copyright">
+		    <p>北京动艺时光网络科技有限公司&nbsp;Copyright 2006-2017 Mtime.com Inc. All rights reserved.</p>
+		    <p>
+			    <a href="#">京ICP证050715号</a>
+			    <a href="#">网络视听许可证0108265号</a>
+			    <a href="#">网络文化经营许可证</a>
+			    <a href="#">广播电视节目制作经营许可证(京)字第1435号</a>
+			    <a href="#" class="beian"><i></i><span>京公网安备：11010502032542号</span></a>
+		    </p>
+		    <p class="beian-logo">
+			    <a href="#">
+			    </a>
+			    <a href="#">
+			    </a>
+		    </p>
+	    </div>
+    </div>
+    <!--五、固定导航-->
+    <div class="fixcate">
+        <dl>
+            <dd class="top-icon asbtn"><a href="#" ></a></dd>
+            <dd class="search-icon"><a href="#search"></a></dd>
+            <dd class="asbtn show"><a href="#hotnews">今日热点</a></dd>
+            <dd class="asbtn"><a href="#ticketregion">购票频道</a></dd>
+            <dd class="asbtn"><a href="#mall-region">正版商场</a></dd>
+            <dd class="asbtn"><a href="#mselectionregion">预告大片</a></dd>
+            <dd class="asbtn"><a href="#funnew">全球拾趣</a></dd>
+            <dd class="asbtn"><a href="#indexmovielist">特色榜单</a></dd>
+            <dd class="asbtn"><a href="#hotcomment">影片热评</a></dd>
+        </dl>
+    </div>
+    <script src="js/slider_load.js"></script>
+    <script src="js/mtime.js"></script>
+</body>
+</html>
